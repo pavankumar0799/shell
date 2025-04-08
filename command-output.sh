@@ -1,9 +1,9 @@
 #!/bin/bash
 
-#date=$(date +%f)
+Date=$(date +%f)
 
-#echo " today date is: $date "
+echo " today date is: $Date "
 
-DATE=$(date +%F)
+#DATE=$(date +%F)
 
-echo "Today's date: $DATE"
+#echo "Today's date: $DATE"
