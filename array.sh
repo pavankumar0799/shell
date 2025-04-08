@@ -1,6 +1,6 @@
 #ibin/bash
 
-fuits={mango,suppoto,orange}
+fuits=(mango,suppoto,orange)
 
 echo " first fuit is : $fuits[0] "
 echo " second fuit is : $fuits[1] "
