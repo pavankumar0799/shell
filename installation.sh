@@ -1,11 +1,11 @@
 #!/bin/bash
 
-user=$(id -u)
-if [ $user eq 0 ]
+userid=$(id -u)
+if [ $userid -ne 0 ]
 then 
- echo " going to install "
-else
- echo "not going to install "
+ echo " run with root "
+ exit 1
+
 fi
 
-dnf install nginx -y
+dnf install git -y
